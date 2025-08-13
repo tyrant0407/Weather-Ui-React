@@ -2,7 +2,7 @@ import React from 'react'
 import { useContext } from 'react'
 import { MyStore } from '../context/MyContext'
 const CityCard = ({city}) => {
-    const {unit} = useContext(MyStore)
+    const {unit,setCurrentWeather} = useContext(MyStore)
   return (
     <div
     onClick={() => setCurrentWeather(city)}
