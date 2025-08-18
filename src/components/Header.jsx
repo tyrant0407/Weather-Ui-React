@@ -10,11 +10,11 @@ const Header = () => {
       <input
         type="text"
         placeholder="Search Location"
-        className="px-4 py-2 rounded-lg border border-gray-300 outline-none text-white"
+        className="lg:px-4 lg:py-2 w-[28vw] px-1 py-1 rounded-lg border border-gray-300 outline-none text-white"
       />
       <button
         onClick={() => setUnit(unit === "C" ? "F" : "C")}
-        className="px-4 py-2 bg-blue-500 text-white rounded-lg shadow"
+        className="lg:px-4 lg:py-2 px-2 py-1 bg-blue-500 text-white rounded-lg shadow "
       >
         {unit === "C" ? "°C" : "°F"}
       </button>

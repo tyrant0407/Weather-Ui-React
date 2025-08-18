@@ -31,8 +31,8 @@ const MainComponent = () => {
           key={key}
           className="bg-black/75 p-4 rounded-lg shadow-xl text-center"
         >
-          <p className="font-semibold capitalize text-white">{key}</p>
-          <p className="text-white/50">{val}</p>
+          <p className="font-semibold capitalize lg:text-[1vw] text-[2vw] text-white">{key}</p>
+          <p className="text-white/50 lg:text-[1vw] text-[1vw]">{val}</p>
         </div>
       ))}
     </div>
